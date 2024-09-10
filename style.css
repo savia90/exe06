@@ -1,0 +1,31 @@
+.paragrafo{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.disciplina{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 33%;
+}
+
+.disciplina img {
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 5px solid darkblue;
+}
+.disciplina h3, .disciplina h5 {
+    color:darkblue;
+}
+
+.disciplina p{
+    text-align: end;
+}
+
+.secao-disciplina{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /*espaçamento entre os blocos*/
+}
